@@ -1,0 +1,9 @@
+/*
+ * Open Sans Condensed
+ * Designed by Steve Matteson
+ */
+
+@font-face {
+	font-family: 'Open Sans Condensed';
+	src: url('OpenSansCondensed-Light.ttf') format('opentype');
+}

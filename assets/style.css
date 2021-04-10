@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* Google Fonts */
+/*@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");*/
+/* Typeface */
+@import "font/opentype.css";
+/* Font Awesome */
+@import "font-awesome/css/font-awesome.min.css";
+/* Normalize.css */
+@import "library/normalize.css";
+
+/* Primary Style */
+
+*:focus { 
+	outline: none;
+}
+
+body {
+	background-color: #fff;
+}
+/*
+ ____      ___        ____        ____        ______  _ 
+|  _ \    / \ \      / /\ \      / /\ \      / /  _ \| |
+| |_) |  / _ \ \ /\ / /  \ \ /\ / /  \ \ /\ / /| |_) | |
+|  _ <  / ___ \ V  V /    \ V  V /    \ V  V / |  _ <|_|
+|_| \_\/_/   \_\_/\_/      \_/\_/      \_/\_/  |_| \_(_)
+
+*/
+.monster {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	letter-spacing: -0.08ex;
+	position: fixed;
+	display: table;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.monster a {
+	display: inline-block;
+	color: #c72427;
+	text-decoration: none;
+	opacity: 0.70;
+	-webkit-animation: heart 2s normal;
+	animation: heart 2s normal;
+}
+
+.monster a:hover {
+	-webkit-animation: heartbeat 1500ms ease 0s infinite normal;
+	animation: heartbeat 1500ms ease 0s infinite normal;
+}
+
+.monster i {
+	font-size: 1.7rem;
+}
+
+.i {
+	position: relative;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
